@@ -13,7 +13,13 @@
     "express": "^4.17.1"
   },
   "dependencies": {
+    "common-tags": "^1.8.0",
     "pug": "^3.0.2",
+    "pug-code-gen": "^2.0.3",
+    "pug-lexer": "^5.0.1",
+    "pug-parser": "^6.0.0",
+    "svg-parser": "^2.0.4",
+    "svgson": "^5.2.1",
     "yargs": "^17.0.1"
   }
 }

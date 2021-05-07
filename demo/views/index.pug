@@ -1,8 +1,12 @@
 include icons/discord.pug
+include icons/twitter.pug
 doctype html
 html
   head
     title svpug - Demo app
   body
     h1 Hello world
-    +icon-discord()
+    p
+      +svg-discord(fill="blue", width="32", height="32")
+    p
+    +svg-twitter(fill="steelblue", width="32", height="32")

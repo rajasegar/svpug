@@ -1,6 +1,6 @@
 # svpug
 
-Generate [Pug](https://pug.js.org) mixins from SVG files.
+Generate [Pug](https://pugjs.org) mixins from SVG files.
 
 
 ## Install 
