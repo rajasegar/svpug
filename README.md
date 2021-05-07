@@ -37,10 +37,10 @@ html
       +svg-twitter(fill="steelblue", width="32", height="32")
 ```
 
-You can also add to your development workflow by installing svpug as a dev dependency.
+You can also add to your development workflow by installing `svpug` as a dev dependency.
 
 ```
-npm install --save-dev svpug
+npm install svpug --save-dev
 ```
 
 or using `yarn`
@@ -48,15 +48,28 @@ or using `yarn`
 yarn add svpug --dev
 ```
 
-and add it your package.json as a script like below
+and add it your `package.json` as a script like below
 ```json
 {
 "svpug": "svpug generate --input src/svgs --output views/icons"
 }
 ```
 
+And use the script to generate Pug mixins
+```
+npm run svpug
+```
+or with yarn 
+```
+yarn svpug
+```
+
+
 ## Conversion
+
 Your SVG files will be converted like this:
+
+### From: discord.svg
 
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
@@ -66,6 +79,7 @@ Your SVG files will be converted like this:
 </svg>
 ```
 
+### To: discord.pug
 ```pug
 mixin svg-discord()
   svg(xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16")&attributes(attributes)
