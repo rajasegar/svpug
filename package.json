@@ -1,6 +1,6 @@
 {
   "name": "svpug",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate Pug mixins from SVG files",
   "main": "index.js",
   "bin": {
