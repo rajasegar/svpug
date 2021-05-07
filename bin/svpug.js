@@ -13,7 +13,7 @@ require('yargs')
       describe: 'The input directory containing SVG files'
     })
   }, function (argv) {
-    console.log('Generating Pug mixins from ', argv.input, ' ...')
+    console.log('Generating Pug mixins from folder: ', argv.input, ' ...')
     svpug(argv.input, argv.output);
   })
   .help()

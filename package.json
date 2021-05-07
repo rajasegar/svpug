@@ -1,24 +1,23 @@
 {
   "name": "svpug",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate Pug mixins from SVG files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "pug",
+    "svg",
+    "mixins"
+  ],
+  "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "express": "^4.17.1"
   },
   "dependencies": {
-    "common-tags": "^1.8.0",
     "pug": "^3.0.2",
-    "pug-code-gen": "^2.0.3",
-    "pug-lexer": "^5.0.1",
-    "pug-parser": "^6.0.0",
-    "svg-parser": "^2.0.4",
     "svgson": "^5.2.1",
     "yargs": "^17.0.1"
   }

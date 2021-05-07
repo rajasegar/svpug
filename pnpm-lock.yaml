@@ -1,23 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
-  common-tags: ^1.8.0
   express: ^4.17.1
   pug: ^3.0.2
-  pug-code-gen: ^2.0.3
-  pug-lexer: ^5.0.1
-  pug-parser: ^6.0.0
-  svg-parser: ^2.0.4
   svgson: ^5.2.1
   yargs: ^17.0.1
 
 dependencies:
-  common-tags: 1.8.0
   pug: 3.0.2
-  pug-code-gen: 2.0.3
-  pug-lexer: 5.0.1
-  pug-parser: 6.0.0
-  svg-parser: 2.0.4
   svgson: 5.2.1
   yargs: 17.0.1
 
@@ -43,16 +33,6 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@types/babel-types/7.0.9:
-    resolution: {integrity: sha512-qZLoYeXSTgQuK1h7QQS16hqLGdmqtRmN8w/rl3Au/l5x/zkHx+a4VHrHyBsi1I1vtK2oBHxSzKIu0R5p6spdOA==}
-    dev: false
-
-  /@types/babylon/6.16.5:
-    resolution: {integrity: sha512-xH2e58elpj1X4ynnKp9qSnWlsRTIs6n3tgLGNfwAGHwePw0mulHQllV34n0T25uYSu1k0hRKkWXF890B1yS47w==}
-    dependencies:
-      '@types/babel-types': 7.0.9
-    dev: false
-
   /accepts/1.3.7:
     resolution: {integrity: sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==}
     engines: {node: '>= 0.6'}
@@ -60,24 +40,6 @@ packages:
       mime-types: 2.1.30
       negotiator: 0.6.2
     dev: true
-
-  /acorn-globals/3.1.0:
-    resolution: {integrity: sha1-/YJw9x+7SZawBPqIDuXUZXOnMb8=}
-    dependencies:
-      acorn: 4.0.13
-    dev: false
-
-  /acorn/3.3.0:
-    resolution: {integrity: sha1-ReN/s56No/JbruP/U2niu18iAXo=}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-    dev: false
-
-  /acorn/4.0.13:
-    resolution: {integrity: sha1-EFSVrlNh1pe9GVyCUZLhrX8lN4c=}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-    dev: false
 
   /acorn/7.4.1:
     resolution: {integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==}
@@ -109,32 +71,11 @@ packages:
     resolution: {integrity: sha512-TaTivMB6pYI1kXwrFlEhLeGfOqoDNdTxjCdwRfFFkEA30Eu+k48W34nlok2EYWJfFFzqaEmichdNM7th6M5HNw==}
     dev: false
 
-  /babel-runtime/6.26.0:
-    resolution: {integrity: sha1-llxwWGaOgrVde/4E/yM3vItWR/4=}
-    dependencies:
-      core-js: 2.6.12
-      regenerator-runtime: 0.11.1
-    dev: false
-
-  /babel-types/6.26.0:
-    resolution: {integrity: sha1-o7Bz+Uq0nrb6Vc1lInozQ4BjJJc=}
-    dependencies:
-      babel-runtime: 6.26.0
-      esutils: 2.0.3
-      lodash: 4.17.21
-      to-fast-properties: 1.0.3
-    dev: false
-
   /babel-walk/3.0.0-canary-5:
     resolution: {integrity: sha512-GAwkz0AihzY5bkwIY5QDR+LvsRQgB/B+1foMPvi0FZPMl5fjD7ICiznUiBdLYMH1QYe6vqu4gWYytZOccLouFw==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       '@babel/types': 7.14.1
-    dev: false
-
-  /babylon/6.18.0:
-    resolution: {integrity: sha512-q/UEjfGJ2Cm3oKV71DJz9d25TPnq5rhBVL2Q4fA5wcC3jcrdn7+SssEybFIxwAvvP+YCsCYNKughoF33GxgycQ==}
-    hasBin: true
     dev: false
 
   /body-parser/1.19.0:
@@ -190,20 +131,6 @@ packages:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: false
 
-  /common-tags/1.8.0:
-    resolution: {integrity: sha512-6P6g0uetGpW/sdyUy/iQQCbFF0kWVMSIVSyYz7Zgjcgh8mgw8PQzDNZeyZ5DQ2gM7LBoZPHmnjz8rUthkBG5tw==}
-    engines: {node: '>=4.0.0'}
-    dev: false
-
-  /constantinople/3.1.2:
-    resolution: {integrity: sha512-yePcBqEFhLOqSBtwYOGGS1exHo/s1xjekXiinh4itpNQGCu4KA1euPh1fg07N2wMITZXQkBz75Ntdt1ctGZouw==}
-    dependencies:
-      '@types/babel-types': 7.0.9
-      '@types/babylon': 6.16.5
-      babel-types: 6.26.0
-      babylon: 6.18.0
-    dev: false
-
   /constantinople/4.0.1:
     resolution: {integrity: sha512-vCrqcSIq4//Gx74TXXCGnHpulY1dskqLTFGDmhrGxzeXL8lF8kvXv6mpNWlJj1uD4DW23D4ljAqbY4RRaaUZIw==}
     dependencies:
@@ -231,12 +158,6 @@ packages:
     resolution: {integrity: sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==}
     engines: {node: '>= 0.6'}
     dev: true
-
-  /core-js/2.6.12:
-    resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
-    deprecated: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
-    requiresBuild: true
-    dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -286,11 +207,6 @@ packages:
   /escape-html/1.0.3:
     resolution: {integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=}
     dev: true
-
-  /esutils/2.0.3:
-    resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
-    engines: {node: '>=0.10.0'}
-    dev: false
 
   /etag/1.8.1:
     resolution: {integrity: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=}
@@ -525,10 +441,6 @@ packages:
       is-buffer: 1.1.6
     dev: false
 
-  /lodash/4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: false
-
   /media-typer/0.3.0:
     resolution: {integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=}
     engines: {node: '>= 0.6'}
@@ -621,33 +533,12 @@ packages:
       ipaddr.js: 1.9.1
     dev: true
 
-  /pug-attrs/2.0.4:
-    resolution: {integrity: sha512-TaZ4Z2TWUPDJcV3wjU3RtUXMrd3kM4Wzjbe3EWnSsZPsJ3LDI0F3yCnf2/W7PPFF+edUFQ0HgDL1IoxSz5K8EQ==}
-    dependencies:
-      constantinople: 3.1.2
-      js-stringify: 1.0.2
-      pug-runtime: 2.0.5
-    dev: false
-
   /pug-attrs/3.0.0:
     resolution: {integrity: sha512-azINV9dUtzPMFQktvTXciNAfAuVh/L/JCl0vtPCwvOA21uZrC08K/UnmrL+SXGEVc1FwzjW62+xw5S/uaLj6cA==}
     dependencies:
       constantinople: 4.0.1
       js-stringify: 1.0.2
       pug-runtime: 3.0.1
-    dev: false
-
-  /pug-code-gen/2.0.3:
-    resolution: {integrity: sha512-r9sezXdDuZJfW9J91TN/2LFbiqDhmltTFmGpHTsGdrNGp3p4SxAjjXEfnuK2e4ywYsRIVP0NeLbSAMHUcaX1EA==}
-    dependencies:
-      constantinople: 3.1.2
-      doctypes: 1.1.0
-      js-stringify: 1.0.2
-      pug-attrs: 2.0.4
-      pug-error: 1.3.3
-      pug-runtime: 2.0.5
-      void-elements: 2.0.1
-      with: 5.1.1
     dev: false
 
   /pug-code-gen/3.0.2:
@@ -661,10 +552,6 @@ packages:
       pug-runtime: 3.0.1
       void-elements: 3.1.0
       with: 7.0.2
-    dev: false
-
-  /pug-error/1.3.3:
-    resolution: {integrity: sha512-qE3YhESP2mRAWMFJgKdtT5D7ckThRScXRwkfo+Erqga7dyJdY3ZquspprMCj/9sJ2ijm5hXFWQE/A3l4poMWiQ==}
     dev: false
 
   /pug-error/2.0.0:
@@ -708,10 +595,6 @@ packages:
     dependencies:
       pug-error: 2.0.0
       token-stream: 1.0.0
-    dev: false
-
-  /pug-runtime/2.0.5:
-    resolution: {integrity: sha512-P+rXKn9un4fQY77wtpcuFyvFaBww7/91f3jHa154qU26qFAnOe6SW1CbIDcxiG5lLK9HazYrMCCuDvNgDQNptw==}
     dev: false
 
   /pug-runtime/3.0.1:
@@ -760,10 +643,6 @@ packages:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
     dev: true
-
-  /regenerator-runtime/0.11.1:
-    resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
-    dev: false
 
   /rename-keys/1.2.0:
     resolution: {integrity: sha512-U7XpAktpbSgHTRSNRrjKSrjYkZKuhUukfoBlXWXUExCAqhzh1TU3BDRAfJmarcl5voKS+pbKU9MvyLWKZ4UEEg==}
@@ -844,21 +723,12 @@ packages:
       ansi-regex: 5.0.0
     dev: false
 
-  /svg-parser/2.0.4:
-    resolution: {integrity: sha512-e4hG1hRwoOdRb37cIMSgzNsxyzKfayW6VOflrwvR+/bzrkyxY/31WkbgnQpgtrNp1SdpJvpUAGTa/ZoiPNDuRQ==}
-    dev: false
-
   /svgson/5.2.1:
     resolution: {integrity: sha512-nbM6QuyZiKzQ0Uo51VDta93YJAr96ikyT40PsgJRrzynOGsOlnmJ6zAK5hUFyE5gnxcg7yuOPUWbUlmV9K0+Dg==}
     dependencies:
       deep-rename-keys: 0.2.1
       omit-deep: 0.3.0
       xml-reader: 2.4.3
-    dev: false
-
-  /to-fast-properties/1.0.3:
-    resolution: {integrity: sha1-uDVx+k2MJbguIxsG46MFXeTKGkc=}
-    engines: {node: '>=0.10.0'}
     dev: false
 
   /to-fast-properties/2.0.0:
@@ -906,21 +776,9 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /void-elements/2.0.1:
-    resolution: {integrity: sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=}
-    engines: {node: '>=0.10.0'}
-    dev: false
-
   /void-elements/3.1.0:
     resolution: {integrity: sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=}
     engines: {node: '>=0.10.0'}
-    dev: false
-
-  /with/5.1.1:
-    resolution: {integrity: sha1-+k2qktrzLE6pTtRTyB8EaGtXXf4=}
-    dependencies:
-      acorn: 3.3.0
-      acorn-globals: 3.1.0
     dev: false
 
   /with/7.0.2:

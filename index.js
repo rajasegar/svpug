@@ -4,10 +4,6 @@ const fs = require('fs');
 const util = require('util');
 const { parse, stringify } = require('svgson');
 
-const lex = require('pug-lexer');
-const pugParse = require('pug-parser');
-const generateCode = require('pug-code-gen');
-
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
@@ -36,11 +32,10 @@ module.exports = function(inputDir, outputDir) {
             const svg = createSvgTag(json.attributes);
             const mixin = `mixin svg-${fileName}()\n  ${svg}\n    ${children}
           `;
-            console.log(mixin);
 
 
             writeFile(`${outputDir}/${fileName}.pug`, mixin)
-              .then(() => console.log(`File ${fileName}.pug generated successfully.`))
+              .then(() => console.log(`File ${outputDir}/${fileName}.pug generated successfully.`))
               .catch(err => console.log('File write error: ', err));
 
           });
