@@ -1,0 +1,19 @@
+{
+  "name": "svpug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "pug": "^3.0.2",
+    "yargs": "^17.0.1"
+  }
+}
