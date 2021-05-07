@@ -1,10 +1,14 @@
 {
   "name": "svpug",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Generate Pug mixins from SVG files",
   "main": "index.js",
+  "bin": {
+    "svpug": "./bin/svpug.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git push && git push --tags && npm publish"
   },
   "keywords": [
     "pug",
@@ -13,6 +17,7 @@
   ],
   "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/rajasegar/svpug",
   "devDependencies": {
     "express": "^4.17.1"
   },
