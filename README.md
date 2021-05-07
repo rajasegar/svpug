@@ -1,11 +1,15 @@
 # svpug
 
-Generate [Pug](https://pugjs.org) mixins from SVG files.
+Generate [Pug](https://pugjs.org) mixins from SVG files inspired by [svgr](https://react-svgr.com).
 
+
+```
+npx svpug generate --input src/svgs --output views/icons
+```
 
 ## Install 
 ```
-npm install svpug
+npm install -g svpug
 ```
 
 ## Usage
@@ -31,6 +35,24 @@ html
       +svg-discord(fill="blue", width="32", height="32")
     p
       +svg-twitter(fill="steelblue", width="32", height="32")
+```
+
+You can also add to your development workflow by installing svpug as a dev dependency.
+
+```
+npm install --save-dev svpug
+```
+
+or using `yarn`
+```
+yarn add svpug --dev
+```
+
+and add it your package.json as a script like below
+```json
+{
+"svpug": "svpug generate --input src/svgs --output views/icons"
+}
 ```
 
 ## Conversion
