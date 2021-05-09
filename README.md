@@ -4,7 +4,7 @@ Generate [Pug](https://pugjs.org) mixins from SVG files inspired by [svgr](https
 
 
 ```
-npx svpug generate --input src/svgs --output views/icons
+npx svpug -i src/svgs -o views/icons
 ```
 
 ## Install 
@@ -14,7 +14,7 @@ npm install -g svpug
 
 ## Usage
 ```
-svpug generate --input src/svgs --output views/icons
+svpug -i src/svgs -o views/icons
 ```
 
 This will convert all the SVG files in the folder `src/svgs` to Pug mixins in the folder `views/icons`. 
@@ -51,7 +51,7 @@ yarn add svpug --dev
 and add it your `package.json` as a script like below
 ```json
 {
-"svpug": "svpug generate --input src/svgs --output views/icons"
+"svpug": "svpug -i src/svgs -o views/icons"
 }
 ```
 
@@ -86,4 +86,30 @@ mixin svg-discord()
     <path>
     ...
     </path>
+```
+
+## Options and Commands
+If you want to convert a single SVG file you can use this variation:
+```
+svpug [input-file] [output-file]
+svpug demo/svgs/twitter.svg views/icons/twitter.pug
+```
+
+If you don't want to overwrite existing files, you can use the `--ignore-existing` option,
+```
+svpug -i demo/svgs -o views/icons --ignore-existing
+```
+
+Help
+```
+svpug [args]
+
+Options:
+      --version          Show version number                           [boolean]
+      --help             Show help                                     [boolean]
+  -i, --input-dir        The input directory containing SVG files       [string]
+  -o, --output-dir       The output directory containing SVG files
+                                               [string] [default: "views/svpug"]
+  -x, --ignore-existing  Ignore existing files in the output directory
+                                                      [boolean] [default: false]
 ```
