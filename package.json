@@ -39,6 +39,7 @@
     "yargs": "^17.0.1"
   },
   "release": {
+    "branches": ["main"],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",

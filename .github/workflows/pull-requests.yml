@@ -1,12 +1,10 @@
-name: Node CI
+name: Pull Requests
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
 
 jobs:
-  build:
+  lint:
 
     runs-on: ubuntu-latest
 
