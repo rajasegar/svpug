@@ -20,9 +20,9 @@
   "license": "MIT",
   "repository": "https://github.com/rajasegar/svpug",
   "devDependencies": {
+    "eslint": "8.4.1",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
-    "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.25.1",
