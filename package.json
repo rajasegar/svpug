@@ -30,7 +30,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "6.0.0",
     "express": "4.17.3",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "semantic-release": "19.0.2"
   },
   "dependencies": {
