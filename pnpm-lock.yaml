@@ -9,7 +9,7 @@ specifiers:
   eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
-  eslint-plugin-promise: 6.0.0
+  eslint-plugin-promise: 6.0.1
   express: 4.18.1
   prettier: 2.7.1
   pug: ^3.0.2
@@ -27,11 +27,11 @@ devDependencies:
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
   eslint: 8.22.0
   eslint-config-prettier: 8.5.0_eslint@8.22.0
-  eslint-config-standard: 16.0.3_82c62c9529ec38617b7e2879db52d614
+  eslint-config-standard: 16.0.3_bd44cd873c0f249824219efe70b07c97
   eslint-plugin-import: 2.26.0_eslint@8.22.0
   eslint-plugin-node: 11.1.0_eslint@8.22.0
   eslint-plugin-prettier: 4.2.1_4684e48c5980d148e4d39aec3317fee1
-  eslint-plugin-promise: 6.0.0_eslint@8.22.0
+  eslint-plugin-promise: 6.0.1_eslint@8.22.0
   express: 4.18.1
   prettier: 2.7.1
   semantic-release: 19.0.5
@@ -1046,7 +1046,7 @@ packages:
       eslint: 8.22.0
     dev: true
 
-  /eslint-config-standard/16.0.3_82c62c9529ec38617b7e2879db52d614:
+  /eslint-config-standard/16.0.3_bd44cd873c0f249824219efe70b07c97:
     resolution: {integrity: sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==}
     peerDependencies:
       eslint: ^7.12.1
@@ -1057,7 +1057,7 @@ packages:
       eslint: 8.22.0
       eslint-plugin-import: 2.26.0_eslint@8.22.0
       eslint-plugin-node: 11.1.0_eslint@8.22.0
-      eslint-plugin-promise: 6.0.0_eslint@8.22.0
+      eslint-plugin-promise: 6.0.1_eslint@8.22.0
     dev: true
 
   /eslint-import-resolver-node/0.3.6:
@@ -1167,8 +1167,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-promise/6.0.0_eslint@8.22.0:
-    resolution: {integrity: sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==}
+  /eslint-plugin-promise/6.0.1_eslint@8.22.0:
+    resolution: {integrity: sha512-uM4Tgo5u3UWQiroOyDEsYcVMOo7re3zmno0IZmB5auxoaQNIceAbXEkSt8RNrKtaYehARHG06pYK6K1JhtP0Zw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
