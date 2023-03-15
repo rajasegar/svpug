@@ -1,6 +1,6 @@
 {
   "name": "svpug",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate Pug mixins from SVG files",
   "main": "index.js",
   "bin": {
@@ -39,7 +39,9 @@
     "yargs": "^17.0.1"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
