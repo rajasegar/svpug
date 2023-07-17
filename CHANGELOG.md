@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/rajasegar/svpug/compare/v0.1.3...v0.1.4) (2023-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency svgson to v5.3.1 ([9ad9066](https://github.com/rajasegar/svpug/commit/9ad9066958cedebf6059a05b32b7b5e35857bc53))
+
 ## [0.1.3](https://github.com/rajasegar/svpug/compare/v0.1.2...v0.1.3) (2023-07-10)
 
 
