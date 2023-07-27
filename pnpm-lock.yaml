@@ -5,7 +5,7 @@ specifiers:
   '@semantic-release/git': 10.0.1
   eslint: 8.45.0
   eslint-config-prettier: 8.9.0
-  eslint-config-standard: 16.0.3
+  eslint-config-standard: 17.1.0
   eslint-plugin-import: 2.27.5
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
@@ -27,7 +27,7 @@ devDependencies:
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
   eslint: 8.45.0
   eslint-config-prettier: 8.9.0_eslint@8.45.0
-  eslint-config-standard: 16.0.3_247ba0d8b4784d4d405c5eae0cf4d3a2
+  eslint-config-standard: 17.1.0_261db13f71a96af162d6c2c46677637f
   eslint-plugin-import: 2.27.5_eslint@8.45.0
   eslint-plugin-node: 11.1.0_eslint@8.45.0
   eslint-plugin-prettier: 4.2.1_84a06636756496ec06acf187bef2302e
@@ -1112,17 +1112,17 @@ packages:
       eslint: 8.45.0
     dev: true
 
-  /eslint-config-standard/16.0.3_247ba0d8b4784d4d405c5eae0cf4d3a2:
-    resolution: {integrity: sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==}
+  /eslint-config-standard/17.1.0_261db13f71a96af162d6c2c46677637f:
+    resolution: {integrity: sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
-      eslint: ^7.12.1
-      eslint-plugin-import: ^2.22.1
-      eslint-plugin-node: ^11.1.0
-      eslint-plugin-promise: ^4.2.1 || ^5.0.0
+      eslint: ^8.0.1
+      eslint-plugin-import: ^2.25.2
+      eslint-plugin-n: '^15.0.0 || ^16.0.0 '
+      eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint: 8.45.0
       eslint-plugin-import: 2.27.5_eslint@8.45.0
-      eslint-plugin-node: 11.1.0_eslint@8.45.0
       eslint-plugin-promise: 6.1.1_eslint@8.45.0
     dev: true
 
