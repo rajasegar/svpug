@@ -4,7 +4,7 @@ specifiers:
   '@semantic-release/changelog': 6.0.3
   '@semantic-release/git': 10.0.1
   eslint: 8.45.0
-  eslint-config-prettier: 8.8.0
+  eslint-config-prettier: 8.9.0
   eslint-config-standard: 16.0.3
   eslint-plugin-import: 2.27.5
   eslint-plugin-node: 11.1.0
@@ -26,11 +26,11 @@ devDependencies:
   '@semantic-release/changelog': 6.0.3_semantic-release@19.0.5
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
   eslint: 8.45.0
-  eslint-config-prettier: 8.8.0_eslint@8.45.0
+  eslint-config-prettier: 8.9.0_eslint@8.45.0
   eslint-config-standard: 16.0.3_247ba0d8b4784d4d405c5eae0cf4d3a2
   eslint-plugin-import: 2.27.5_eslint@8.45.0
   eslint-plugin-node: 11.1.0_eslint@8.45.0
-  eslint-plugin-prettier: 4.2.1_f3698485b877a368f1f618c8dbad4b92
+  eslint-plugin-prettier: 4.2.1_84a06636756496ec06acf187bef2302e
   eslint-plugin-promise: 6.1.1_eslint@8.45.0
   express: 4.18.2
   prettier: 2.8.8
@@ -1103,8 +1103,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.8.0_eslint@8.45.0:
-    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
+  /eslint-config-prettier/8.9.0_eslint@8.45.0:
+    resolution: {integrity: sha512-+sbni7NfVXnOpnRadUA8S28AUlsZt9GjgFvABIRL9Hkn8KqNzOp+7Lw4QWtrwn20KzU3wqu1QoOj2m+7rKRqkA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1222,7 +1222,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_f3698485b877a368f1f618c8dbad4b92:
+  /eslint-plugin-prettier/4.2.1_84a06636756496ec06acf187bef2302e:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1234,7 +1234,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.45.0
-      eslint-config-prettier: 8.8.0_eslint@8.45.0
+      eslint-config-prettier: 8.9.0_eslint@8.45.0
       prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
     dev: true
