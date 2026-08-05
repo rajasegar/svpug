@@ -21,8 +21,8 @@
   "repository": "https://github.com/rajasegar/svpug",
   "devDependencies": {
     "eslint": "8.45.0",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
+    "@semantic-release/changelog": "7.0.0",
+    "@semantic-release/git": "11.0.1",
     "eslint-config-prettier": "8.9.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.27.5",
@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "6.1.1",
     "express": "4.18.2",
     "prettier": "2.8.8",
-    "semantic-release": "19.0.5"
+    "semantic-release": "25.0.9"
   },
   "dependencies": {
     "pug": "^3.0.2",
